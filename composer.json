@@ -1,6 +1,8 @@
 {
     "name": "teuz/laravel-cas",
     "description": "A CAS authentication package for Laravel 4.",
+    "keywords": ["cas","php","laravel", "auth"],
+    "license": "Apache License, Version 2.0"
     "authors": [
         {
             "name": "Matteus Hemström",
