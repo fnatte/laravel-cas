@@ -1,6 +1,6 @@
 {
     "name": "teuz/laravel-cas",
-    "description": "",
+    "description": "A CAS authentication package for Laravel 4.",
     "authors": [
         {
             "name": "Matteus Hemström",
