@@ -2,7 +2,7 @@
 
 *teuz/laravel-cas* is a CAS authentication package for Laravel 4.
 
-** Please be aware that this package is in very alpha and not very well tested! **
+**Please be aware that this package is in a early development stage and is not very well tested!**
 
 ## Installation
 
@@ -21,7 +21,7 @@ Update composer using a terminal:
 composer update
 ```
 
-Add service providers to *app/config/app.php*: ** (Note that both of the service providers below are required) **
+Add service providers to *app/config/app.php*: **(Note that both service providers below are required)**
 
 ```php
 'Teuz\LaravelCas\LaravelCasServiceProvider',
@@ -84,7 +84,7 @@ Route::get('/user/cas', function()
 });
 ```
 
-** Note that this path should be equal to the configuration parameter *service*. **
+**Note that this path should be equal to the configuration parameter *service*.**
 When the user submits the login form at the CAS server, the user will be redirected to this route with a ticket.
 We must then validate the ticket, and if we successfully do so redirect the user to the intended page (using the *reload* function).
 
