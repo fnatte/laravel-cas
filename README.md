@@ -10,7 +10,7 @@ Add requirement of *teuz/laravel-cas* to your composer.json file:
 
 ```php
 "require": {
-	"laravel/framework": "4.1.*",
+	"laravel/framework": "4.2.*",
 	"teuz/laravel-cas": "dev-master"
 },
 ```
